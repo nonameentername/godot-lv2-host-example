@@ -1,12 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://cl5q1cyrf6e6v"]
+[gd_scene format=3 uid="uid://cl5q1cyrf6e6v"]
 
 [ext_resource type="Script" uid="uid://kc78xu6di1ob" path="res://main.gd" id="1_ig7tw"]
 
 [sub_resource type="AudioStreamLv2" id="AudioStreamLv2_ig7tw"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=443217353]
 script = ExtResource("1_ig7tw")
 
-[node name="AmSynthPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AmSynthPlayer" type="AudioStreamPlayer" parent="." unique_id=1025120647]
 stream = SubResource("AudioStreamLv2_ig7tw")
 autoplay = true
