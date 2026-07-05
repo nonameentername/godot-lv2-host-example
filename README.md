@@ -3,6 +3,8 @@ godot-lv2-host-example
 
 Simple example Godot project that uses [godot-lv2-host](https://github.com/nonameentername/godot-lv2-host/).
 
+Currently works with Godot v4.7 stable release.
+
 build
 -----
 
